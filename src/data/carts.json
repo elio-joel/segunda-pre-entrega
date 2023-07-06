@@ -1,33 +1,33 @@
 [
-	{
-		"id": "ZsIwcBXKP",
-		"products": [
-			{
-				"productId": "tmTlyURXZ",
-				"qty": 8
-			},
-			{
-				"productId": "KrUeP_38w",
-				"qty": 2
-			}
-		]
-	},
-	{
-		"id": "nEnTEagmn",
-		"products": [
-			{
-				"productId": "tmTlyURXZ",
-				"qty": 20
-			}
-		]
-	},
-	{
-		"id": "f4ev722wL",
-		"products": [
-			{
-				"productId": "KrUeP_38w",
-				"qty": 1
-			}
-		]
-	}
+  {
+    "id": "Perfumeria",
+    "products": [
+      {
+        "productId": "perfumeria-uno",
+        "qty": 8
+      },
+      {
+        "productId": "cremas-uno",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "Perfumeria",
+    "products": [
+      {
+        "productId": "desodorante-uno",
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "id": "Labial",
+    "products": [
+      {
+        "productId": "labiales-dos",
+        "qty": 1
+      }
+    ]
+  }
 ]

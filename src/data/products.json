@@ -1,94 +1,60 @@
+
 [
 	{
-		"id": "KrUeP_38w",
-		"title": "Bulbium Red",
-		"description": "Bulbium Red",
-		"code": "BBR2",
-		"price": 450,
-		"status": true,
-		"stock": 20,
-		"category": "Flor ornamental",
-		"thumbnails": []
-	},
-	{
-		"id": "mR5FYc9Ek",
-		"title": "Indranium Baby",
-		"description": "Indranium Baby",
-		"code": "IBB",
-		"price": 4500,
-		"status": true,
-		"stock": 50,
-		"category": "Gramínea",
-		"thumbnails": [
-			"2",
-			"3",
-			"4"
-		]
-	},
-	{
-		"id": "VPulkQZno",
-		"title": "Tulipan",
-		"description": "Tulipan",
-		"code": "TUP",
-		"price": 4500,
-		"status": true,
-		"stock": 50,
-		"category": "Bulbos",
-		"thumbnails": [
-			1,
-			2
-		]
-	},
-	{
-		"id": "U7anh8CnK",
-		"title": "Tulipan Verde",
-		"description": "Tulipan Verde",
-		"code": "TUPV",
-		"price": 10000,
-		"status": true,
-		"stock": 50,
-		"category": "Flores Ornamentales",
-		"thumbnails": []
-	},
-	{
-		"id": "tvLe3P0NO",
-		"title": "Tulipan Verde",
-		"description": "Tulipan Verde",
-		"code": "TUPV2",
-		"price": 10000,
-		"status": true,
-		"stock": 50,
-		"category": "Flores Ornamentales",
-		"thumbnails": [
-			"http://localhost:8080/files/uploads/1687734289016-ABUELO.JPG",
-			"http://localhost:8080/files/uploads/1687734289016-ALEX.JPG",
-			"http://localhost:8080/files/uploads/1687734289016-ELENA.JPG"
-		]
-	},
-	{
-		"id": "BJgYaRkxT",
-		"title": "Tulipan Verde",
-		"description": "Tulipan Verde",
-		"code": "TUPV3",
-		"price": 10000,
-		"status": true,
-		"stock": 50,
-		"category": "Flores Ornamentales",
-		"thumbnails": [
-			"http://localhost:8080/files/uploads/1687735020603-MAGUILA.JPG"
-		]
-	},
-	{
-		"id": "Dc7bggo4I",
-		"title": "Tulipan Verde",
-		"description": "Tulipan Verde",
-		"code": "TUPV4",
-		"price": 10000,
-		"status": true,
-		"stock": 50,
-		"category": "Flores Ornamentales",
-		"thumbnails": [
-			"http://localhost:8080/files/uploads/1687736982166-MAGUILA.JPG"
-		]
-	}
+	    "id": "perfumeria-uno",
+        "title": "Perfume para hombre",
+        "description": "Locion masculina de 100ml",
+        "code": "PPA",
+        "price": 450,
+        "status": true,
+        "stock":15,
+        "category": "Perfumeria",
+        "thumbnails": []
+
+    },
+    {
+        "id": "cremas-uno",
+        "title": "Crema corporal",
+        "description": "Crema unisex con extractos de aloe vera",
+        "code": "CCA",
+        "price": 450,
+        "status": true,
+        "stock": 15,
+        "category": "Cremas",
+        "thumbnails": []
+    },
+    
+    {
+        "id": "desodorante-uno",
+        "title": "Desodorante spray p/mujer",
+        "description": "Locion femenina de 100ml",
+        "code": "PPD",
+        "price": 1500,
+        "status": true,
+        "stock": 15,
+        "category": "Perfumeria",
+        "thumbnails": []
+    },
+    {
+        "id": "labiales-uno",
+        "title": "Labial matte",
+        "description": "Labial saborizado",
+        "code": "PPE",
+        "price": 1800,
+        "status": true,
+        "stock": 5,
+        "category": "Labial",
+        "thumbnails": []
+    },
+    {
+        "id": "labiales-dos",
+        "title": "Labial matte",
+        "description": "Labial saborizado",
+        "code": "PPF",
+        "price": 1700,
+        "status": true,
+        "stock": 5,
+        "category": "Labial",
+        "thumbnails": []
+    }
 ]

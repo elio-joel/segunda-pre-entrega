@@ -14,7 +14,7 @@ socket.on('newUserConnected', data => {
 });
 
 Swal.fire({
-    title: 'Hola Flowerier!',
+    title: 'Hola!',
     input: 'text',
     text: 'Ingresa tu usuario para identificarte en el chat',
     inputValidator: (value) => {
@@ -24,7 +24,7 @@ Swal.fire({
 }).then((result) => {
     user = result.value;
     let title = document.getElementById('title');
-    title.innerHTML = `Bienvenido ${user} a Flowery 4107 Webchat!`;
+    title.innerHTML = `Bienvenido ${user} al Soporte Webchat de este sitio!`;
     socket.emit('authenticated', user);
 });    
 

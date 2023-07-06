@@ -56,7 +56,7 @@ mongoose.connect(mongo, {
 //Server config
 const serverHttp = app.listen(PORT, () => {
     displayRoutes(app);
-    console.log(`Flowery 4107 Backend server is now up on port ${PORT}`)
+    console.log(`Linea de cosmeticos se encuentra disponible en el puerto ${PORT}`)
 });
 
 //Socket.io config: link http server to socket.io server

@@ -6,15 +6,15 @@ const router = Router();
 router.get('/',async (req,res)=>{
     const productManager = new ProductManager();
     const products = await productManager.getProducts();
-    res.render('home', {title: 'Flowery 4107 Products', style: 'product.css', products: products});
+    res.render('home', {title: 'Linea de cosmeticos', style: 'product.css', products: products});
 })
 
 router.get('/realtimeproducts', (req,res)=>{
-    res.render('realTimeProducts', {title: 'Flowery 4107 Products', style: 'productList.css'});
+    res.render('realTimeProducts', {title: 'Linea de cosmeticos', style: 'productList.css'});
 })
 
 router.get('/webchat', (req,res)=>{
-    res.render('chat', { style: 'chat.css', title: 'Flowery 4107 Webchat'});
+    res.render('chat', { style: 'chat.css', title: 'Soporte Webchat'});
 })
 
 router.get('/products', async (req,res)=>{
@@ -24,7 +24,7 @@ router.get('/products', async (req,res)=>{
         const baseUrl = `${req.protocol}://${req.get('host')}${req.originalUrl.split('?')[0]}`;
         const productManager = new ProductManager();
         const products = await productManager.getProducts(limit, page, sort, category, available, baseUrl);
-        res.render('productList', {title: 'Flowery 4107 Products', style: 'productList.css', products: products});
+        res.render('productList', {title: 'Linea de cosmeticos', style: 'productList.css', products: products});
     } catch (error) {
         res.status(500).send(error.message);
     }
@@ -35,7 +35,7 @@ router.get('/carts/:cartId', async (req,res)=>{
         const cartId = req.params.cartId;
         const cartManager = new CartManager();
         const cart = await cartManager.getCart(cartId);
-        res.render('cart', {title: 'Flowery 4107 Cart', style: 'cart.css', cart: cart});
+        res.render('cart', {title: 'Linea de cosmeticos', style: 'cart.css', cart: cart});
     } catch (error) {
         res.status(500).send(error.message);
     }
